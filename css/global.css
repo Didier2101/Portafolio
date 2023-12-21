@@ -1,0 +1,59 @@
+@import url('normalize.css');
+@import url('header.css');
+@import url('main.css');
+@import url('menu-movil.css');
+@import url('estilos-tableta.css');
+
+:root{
+    --color-fondo: #1F1F1F;
+    --color-fondo2: #292929;
+    --color-texto: #f4f4f4;
+    --color-negro: #000000;
+    --color-azul-btn: #38B6FF;
+    --color-hover-btn: #6c72e9;
+    --sombra: 0px 0px 0px 1px #6E6E6E;
+}
+*{
+    color: var(--color-texto);
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 68.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--color-fondo);
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.titulos{
+    margin: 20px 0;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 1,2rem;
+}
+h5{
+    font-size: 1.1rem;
+}
+p, a, span{
+    font-size: 1.1rem;
+}

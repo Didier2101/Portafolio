@@ -1,0 +1,159 @@
+@media screen and (min-width: 768px) {
+    .container-btn-movil, .cont-menu-movil, .container-title-header{
+        display: none;
+    }
+    .header{
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .container-header-home{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .menu-desktop{
+        display: flex;
+        list-style: none;
+        gap: 6px;
+
+        li{
+            padding: 10px;
+            border-radius: 5px;
+        }
+        li:hover{
+            cursor: pointer;
+            background-color: var(--color-fondo2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a{
+            font-size: 1.3rem;
+            text-align: center;
+        }
+    }
+
+
+    .portada{
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+
+    .slider-section{
+        width: 1000px;
+        margin: 0 auto;
+
+        .slide{
+            height: 400px;
+        }
+    }
+    .acerca-de{
+        display: none;
+    }
+    .experiencia{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+        
+        .cont-trabajo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+    .habilidades{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+    
+        .cont-habilidades{
+            li{
+                
+                width: 200px;
+                height: 200px;
+            }
+            
+        }
+    }
+    
+    .educacion{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+        
+    
+        .cont-educacion{
+           
+            .cont-cards{
+                display: grid;
+                grid-template-columns: repeat(4,4fr);
+                gap: 8px;
+            }
+           
+        }
+    }
+
+    .testimonios{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+        .cont-testimonios{
+            width: 96%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+    
+            
+        }
+    }
+    .flex{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+
+        .contacto{
+            height: 400px;
+            margin-top: 0;
+        }
+        .acerca-de2{
+            width: 400px;
+            height: 400px;
+            display: block;
+            box-shadow: var(--sombra);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+
+    footer{
+        width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+        .footer{
+          
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+    
+         
+        }
+    }
+    
+}

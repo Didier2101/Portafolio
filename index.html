@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="shortcut icon" href="Imagenes/logo-dcg-sin-fondo.png" type="image/x-icon">
+  <title>Portafolio -Didier</title>
+  <script src="https://kit.fontawesome.com/33ecabbdaa.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="body">
+  <header class="header">
+    <div class="container-header-home">
+      <div class="container-logo-header">
+        <a href="index.html">
+          <img src="Imagenes/logo-dcg-sin-fondo.png" alt="logo perfil">
+        </a>
+      </div>
+      <div class="container-title-header">
+        <h2>Portafolio</h2>
+      </div>
+      <ul class="menu-desktop">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#acerca-de2">Acerca de Mí</a></li>
+        <li><a href="#experiencia">Experiencia Laboral</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="container-btn-movil" id="container-btn-movil">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="portada">
+      <h1 class="title">Desarrollador <br> de software </h1>
+      <div class="redes">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-chrome"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=3028645014" target="_blank">
+        <i class="fa-solid fa-phone"></i>
+        <span>Contactarme</span>
+      </a>
+    </section>
+
+    <div class="container-all">
+      <section class="cont-menu-movil" id="menu-movil">
+        <div class="cont-icon" id="btn-close-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#acerca-de">Acerca de Mí</a></li>
+              <li><a href="#experiencia">Experiencia Laboral</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#educacion">Educación</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="slider-section" id="proyectos">
+        <h2 class="titulos">Proyectos</h2>
+        <div class="slider-container" id="slider-container">
+          <div class="slide p1">
+            <h3>Tienda de Ropa Online</h3>
+            <p><strong>Tecnologías Utilizadas:</strong> <br> HTML5, CSS3, JavaScript, React</p>
+            <p><strong>Enlace al Proyecto:</strong> <a href="https://www.falabella.com.co/falabella-co">Ver la Tienda en
+                Línea</a></p>
+          </div>
+
+          <div class="slide p2">
+            <h3>Blog Personal: "CodeNotes"</h3>
+            <p><strong>Tecnologías Utilizadas:</strong> WordPress, PHP, MySQL</p>
+            <p><strong>Enlace al Proyecto:</strong> <a href="[Enlace al Proyecto]">Explorar el Blog</a></p>
+          </div>
+
+          <div class="slide p3">
+            <h3>TaskMaster: Aplicación de Gestión de Tareas</h3>
+            <p><strong>Tecnologías Utilizadas:</strong> Vue.js, Firebase, CSS Flexbox</p>
+            <p><strong>Enlace al Proyecto:</strong> <a href="[Enlace al Proyecto]">Probar TaskMaster</a></p>
+          </div>
+
+          <div class="slide p4">
+            <h3>NewsHub: Portal de Noticias</h3>
+
+            <p><strong>Tecnologías Utilizadas:</strong> React, Node.js, Express, MongoDB</p>
+
+            <p><strong>Enlace al Proyecto:</strong> <a href="[Enlace al Proyecto]">Explorar NewsHub</a></p>
+          </div>
+
+          <div class="slide p5">
+            <h3>FinTrack: Aplicación de Gestión Financiera</h3>
+            <p><strong>Tecnologías Utilizadas:</strong> Angular, Firebase, Chart.js</p>
+            <p><strong>Enlace al Proyecto:</strong> <a href="[Enlace al Proyecto]">Probar FinTrack</a></p>
+          </div>
+
+
+        </div>
+        <div class="prev-btn" onclick="prevSlide()">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="next-btn" onclick="nextSlide()">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </section>
+
+      <section id="acerca-de" class="acerca-de">
+        <div class="cont-acerca-de">
+          <h2 class="titulos">Acerca de Mí</h2>
+
+          <p>Soy <strong>Didier Chavez</strong> , estudiante del (SENA) Servicio de aaprendizaje Nacional, en Tecnología
+            de Desarrollo de
+            Software, apasionado por crear
+            soluciones innovadoras. Mi enfoque se centra en el aprendizaje continuo y la mejora constante.</p>
+        </div>
+      </section>
+
+      <section id="experiencia" class="experiencia">
+        <div class="cont-experiencia">
+          <h2 class="titulos">Experiencia Laboral</h2>
+
+          <div class="cont-trabajo">
+            <div class="trabajo">
+              <h3 class="cargo">Desarrollador Web Junior</h3>
+              <h4 class="empresa">Tech Innovators S.A.</h4>
+              <h5 class="periodo">Enero 2022 - Presente</h5>
+              <p class="descripcion">
+                Trabajé en el desarrollo y mantenimiento de aplicaciones web utilizando tecnologías modernas como HTML,
+                CSS,
+                JavaScript y React.
+                Colaboré estrechamente con el equipo para implementar nuevas características y mejorar la experiencia
+                del
+                usuario.
+              </p>
+            </div>
+
+            <div class="trabajo">
+              <h3 class="cargo">Analista de Soporte Técnico</h3>
+              <h4 class="empresa">Sistemas Empresariales XYZ</h4>
+              <h5 class="periodo">Mayo 2020 - Diciembre 2021</h5>
+              <p class="descripcion">
+                Brindé soporte técnico a usuarios internos, resolviendo problemas de hardware y software.
+                Coordiné la implementación de nuevas soluciones tecnológicas y realicé capacitaciones para mejorar la
+                eficiencia operativa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="habilidades" class="habilidades">
+        <div class="cont-habilidades">
+          <h2 class="titulos">Habilidades</h2>
+          <ul>
+            <li>
+              <p>HTML</p>
+              <i class="fab fa-html5"></i>
+              <span>Alto</span>
+            </li>
+            <li>
+              <p>CSS</p>
+              <i class="fab fa-css3-alt"></i>
+              <span>Alto</span>
+            </li>
+            <li>
+              <p>JavaScript</p>
+              <i class="fab fa-js"></i>
+              <span>Basic</span>
+            </li>
+            <li>
+              <p>React</p>
+              <!-- Agrega el icono de React -->
+              <i class="fab fa-react"></i>
+              <span>Intermedio</span>
+            </li>
+            <li>
+              <p>Angular</p>
+              <!-- Agrega el icono de Angular -->
+              <i class="fab fa-angular"></i>
+              <span>Básico</span>
+            </li>
+            <li>
+              <p>Node.js</p>
+              <!-- Agrega el icono de Node.js -->
+              <i class="fab fa-node"></i>
+              <span>Intermedio</span>
+            </li>
+            <li>
+              <p>MongoDB</p>
+              <!-- Agrega el icono de MongoDB -->
+              <i class="fab fa-envira"></i>
+              <span>Básico</span>
+            </li>
+            <li>
+              <p>Git</p>
+              <!-- Agrega el icono de Git -->
+              <i class="fab fa-git-alt"></i>
+              <span>Alto</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="educacion" class="educacion">
+        <div class="cont-educacion">
+          <h2 class="titulos">Educación</h2>
+
+          <div class="cont-cards">
+            <div class="cards">
+              <h3>Tecnologia en Desarrollo de Software</h3>
+              <p>Instituto educativo (SENA) - Año de Graduación: 2020</p>
+              <a href="archivo-pdf/Didier Chavez Gonzalez.pdf">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+            </div>
+
+            <div class="cards">
+              <h3>Diplomado en Desarrollo de Software</h3>
+              <p>Universidad de Caldas - Año de Graduación: 2018</p>
+              <a href="archivo-pdf/Didier Chavez Gonzalez.pdf">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+            </div>
+
+            <div class="cards">
+              <h3>Curso en Platzi: JavaScript para Desarrollo Móvil</h3>
+              <p>Platzi - Año de Finalización: 2021</p>
+              <a href="archivo-pdf/Didier Chavez Gonzalez.pdf">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+            </div>
+
+            <div class="cards">
+              <h3>Curso en Platzi: HTML y CSS</h3>
+              <p>Platzi - Año de Finalización: 2019</p>
+              <a href="archivo-pdf/Didier Chavez Gonzalez.pdf">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+            </div>
+
+            <div class="cards">
+              <h3>Estudio Autodidacta: JavaScript, HTML, CSS y React</h3>
+              <p>Plataforma: YouTube - Año de Estudio: 2022</p>
+              <a href="archivo-pdf/Didier Chavez Gonzalez.pdf">
+                <i class="fa-regular fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="testimonios" class="testimonios">
+
+        <h2 class="titulos">Testimonios</h2>
+        <div class="cont-testimonios">
+          <div class="testimonio-card">
+            <div class="cont-img">
+              <img src="Imagenes/t1.webp" alt="Testigo 2">
+            </div>
+            <p>"Increíble experiencia de trabajo. El profesionalismo y la calidad del código son destacables."</p>
+            <p>María González</p>
+          </div>
+
+          <div class="testimonio-card">
+            <div class="cont-img">
+              <img src="Imagenes/t2.webp" alt="Testigo 2">
+            </div>
+            <p>"Excelente trabajo. El desarrollador mostró un gran compromiso y habilidades técnicas impresionantes."
+            </p>
+            <p>- Juan Pérez</p>
+          </div>
+
+
+          <div class="testimonio-card">
+            <div class="cont-img">
+              <img src="Imagenes/t4.webp" alt="Testigo 2">
+            </div>
+            <p>"Altamente recomendado. Cumplieron con todas las expectativas y entregaron a tiempo."</p>
+            <p>- Andrés Rodríguez</p>
+          </div>
+
+          <div class="testimonio-card">
+            <div class="cont-img">
+              <img src="Imagenes/t3.webp" alt="Testigo 2">
+            </div>
+            <p>"El trabajo realizado superó nuestras expectativas. ¡Gracias por un servicio excepcional!"</p>
+            <p>- Laura Martínez</p>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="flex">
+        <section id="contacto" class="contacto">
+          <!-- <h2 class="titulos">Contacto</h2> -->
+          <div class="cont-contacto">
+            <h2 class="titulos">Enviar Mensaje</h2>
+            <p class="ds-form">Puedes contactarme a través del siguiente formulario o por correo electrónico a <a
+                href=""></a>Didierchavez2101@gmail.com</p>
+
+            <form class="form" id="formulario-contacto" autocomplete="off">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" name="correo" required>
+
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+        <section id="acerca-de2" class="acerca-de2">
+          <div class="cont-acerca-de">
+            <h2 class="titulos">Acerca de Mí</h2>
+
+            <p>Soy <strong>Didier Chavez</strong>, estudiante del (SENA) Servicio de Aprendizaje Nacional, en Tecnología
+              de Desarrollo de Software, apasionado por crear soluciones innovadoras. Mi enfoque se centra en el
+              aprendizaje continuo y la mejora constante.</p>
+
+            <h2 class="titulos">Objetivos Futuros</h2>
+
+            <p>Como estudiante comprometido, mi objetivo es continuar ampliando mis conocimientos y habilidades en el
+              desarrollo de software. Aspiro a contribuir al mundo de la tecnología mediante la creación de soluciones
+              prácticas que impacten positivamente en la sociedad. Mi enfoque a largo plazo es seguir aprendiendo,
+              colaborando con profesionales apasionados y...</p>
+            <!-- Agrega aquí tus objetivos futuros -->
+
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h2 class="titulos">Contacto</h2>
+    <section class="footer">
+      <div class="cont-footer">
+        <h3>Enlaces Rápidos</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#acerca-de2">Acerca de Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="seccion-footer">
+        <h3>Contacto</h3>
+        <p>Telefono: (+57)3028645014</p>
+        <p>Correo Electrónico: Didierchavez2101@gmail.com</p>
+      </div>
+
+      <div class="seccion-footer">
+        <h3>Redes Sociales</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/Didierchavez2101" target="_blank">Facebook</a></li>
+          <li><a href="https://github.com/Didier2101" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/dcg-didierchavez
+            " target="_blank">LinkedIn</a></li>
+          <!-- Agrega más redes sociales según sea necesario -->
+        </ul>
+      </div>
+    </section>
+
+  </footer>
+  <div class="derechos">
+    <p>&copy; 2023 DCG Developer. Todos los derechos reservados.</p>
+  </div>
+  <a href="#" class="volver-arriba">
+    <i class="fa-solid fa-angle-up"></i>
+  </a>
+  <script src="script/global.js"></script>
+</body>
+
+</html>
